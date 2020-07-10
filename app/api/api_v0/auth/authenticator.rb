@@ -3,7 +3,7 @@ module ApiV0
     class Authenticator
       def initialize(request, params)
         @request = request
-        @params = params
+        @params  = params
       end
 
       def authenticate!
